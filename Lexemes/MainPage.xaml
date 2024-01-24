@@ -18,17 +18,17 @@
                  VerticalOptions="CenterAndExpand">
 
         <Label Text="{Binding Word}" 
-               FontSize="Header"
+               FontSize="75"
                FontFamily="Fancy"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
 
         <Label Text="{Binding Definition}"
-               FontSize="Medium"
+               FontSize="35"
                FontFamily="Straight"/>
 
         <Button Text="Next" Command="{Binding Next}" 
-                FontSize="Medium"
+                FontSize="35"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="CenterAndExpand"
                  
